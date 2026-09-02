@@ -1,0 +1,19 @@
+X=11
+Y=2.4
+print(X,type(X))
+print(Y,type(Y))#Yes you can do math with floats and integers just by adding them or any form of math python will give you the answer in float value 
+print(X+Y)
+X=10
+Y=2.8
+print(X-Y)
+# a string is just text data 
+Mr_beast="Mrbeast"
+print(Mr_beast[0])
+print(Mr_beast[1:3])
+#the type of data a list can contain could be anything you want it with strings, integers, floats and so forth. A list is a collection of data that can be stored all in a variable
+Games=["Minecraft","Roblox","Fortnite","GTA5"]
+Games.append("Call of Duty")
+print(Games)
+#it shows the whole list plus the appended game as well
+print(len(Games))
+#some things that I learned from the lab were you can do math with floats and integers and python gives the answer in float value. Another thing is you can also use the slice method to pick apart words and get certain characters from it and also to get a specific range of characters. Also that you can store a list of things like intergers, string, floats ect in a single variable and also add to it by appending to it. Lastly I learned all the very useful definitions and examples to all of these methods. 

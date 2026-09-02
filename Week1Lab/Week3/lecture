@@ -1,0 +1,45 @@
+#whats the difference between float and integers
+#integers are whole numbers and no decimal point
+#float contains decimals
+
+x=15 ##int value
+
+y=2.5 ##float value
+print(x,type(x)) #data sheet
+print(y,type(y)) #data sheet
+
+print(x//y) #floor division will give whole number value
+print(x/y) #regular division will give float decimal value 
+
+user_text=input("Type something:")
+print(f"Hello, {user_text}!")
+user_text2=input("What is your full name?")
+print(f"Nice to meet you, {user_text2}!")
+user_text3=input("What is your age?")
+print(f"You are {user_text3} years old!")
+#user input automatically converts input to string, regardless of what is typed
+#string is text data
+
+apple="Python"
+print(apple[0])
+print(apple[1])#this selects the first character of my word
+print(apple[2])
+print(apple[3])
+print(apple[4])
+print(apple[5])
+#slicing is when we want to print a range from string text
+print(apple[0:3]) #this will print the first 3 characters of the string [start:end]
+
+#built in python functions .upper() converts string to uppercase and .lower() converts string to lowercase 
+phrase="Python is cool!"
+print(phrase.upper())
+print(phrase.lower())
+
+fruits=["apple","banana","kiwi","mango"]
+print(fruits[0]) #this will print the first item in the list
+print(fruits[1]) #this will print the second item in the list
+print(fruits[2]) #this will print the third item in the list
+print(fruits[3]) #this will print the fourth item in the list
+#to add to a list, we append the list name 
+fruits.append("grape")
+print(fruits) #this will print the entire list with the new item added
