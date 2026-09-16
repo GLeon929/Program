@@ -17,3 +17,4 @@ print(Games)
 #it shows the whole list plus the appended game as well
 print(len(Games))
 #some things that I learned from the lab were you can do math with floats and integers and python gives the answer in float value. Another thing is you can also use the slice method to pick apart words and get certain characters from it and also to get a specific range of characters. Also that you can store a list of things like intergers, string, floats ect in a single variable and also add to it by appending to it. Lastly I learned all the very useful definitions and examples to all of these methods. 
+
